@@ -10,7 +10,7 @@ const Result = ({ setShow }: ResultProps) => {
     return (
         <div className="relative">
             <div className="pb-5">
-                <h1 className="text-xl font-bold text-center">The cat is feeling...</h1>
+                <h1 className="text-xl font-bold text-center">Eternally yours… these images still whisper it ❤️</h1>
             </div>
             {/* <DotLottieReact src="/catFeeling.lottie" autoplay loop /> */}
             <img src={cp3} alt="cp1" className="md:w-1/2 w-9/10 mx-auto rounded-2xl border-base-300 border-4"/>
