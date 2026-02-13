@@ -1,6 +1,6 @@
 // import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import { RotateCcw } from "lucide-react";
-import cp3 from "./../img/cp3.jpeg";
+import cp3 from "./../img/cp3.jpg";
 
 interface ResultProps {
     setShow: (value: String) => void;
