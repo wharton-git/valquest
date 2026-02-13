@@ -9,12 +9,12 @@ interface ResultProps {
 const Result = ({ setShow }: ResultProps) => {
     return (
         <div className="relative">
-            {/* <DotLottieReact src="/catFeeling.lottie" autoplay loop /> */}
-            <img src={cp1} alt="cp1" className="w-1/2 mx-auto rounded-2xl"/>
-            <div className="w-full flex justify-center absolute top-3/4">
-                <p>Youuupiiii</p>
+            <div className="pb-5">
+                <h1 className="text-xl font-bold text-center">The cat is feeling...</h1>
             </div>
-            <div className="absolute -bottom-5 right-5 cursor-pointer" onClick={() => setShow("question")}>
+            {/* <DotLottieReact src="/catFeeling.lottie" autoplay loop /> */}
+            <img src={cp1} alt="cp1" className="md:w-1/2 w-9/10 mx-auto rounded-2xl border-base-300 border-4"/>
+            <div className="absolute -bottom-7 right-5 cursor-pointer" onClick={() => setShow("question")}>
                 <RotateCcw size={20}/>
             </div>
         </div>
