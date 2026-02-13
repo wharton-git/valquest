@@ -1,6 +1,6 @@
 // import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import { RotateCcw } from "lucide-react";
-import cp2 from "./../img/cp2.jpeg";
+import cp3 from "./../img/cp3.jpeg";
 
 interface ResultProps {
     setShow: (value: String) => void;
@@ -13,7 +13,7 @@ const Result = ({ setShow }: ResultProps) => {
                 <h1 className="text-xl font-bold text-center">The cat is feeling...</h1>
             </div>
             {/* <DotLottieReact src="/catFeeling.lottie" autoplay loop /> */}
-            <img src={cp2} alt="cp1" className="md:w-1/2 w-9/10 mx-auto rounded-2xl border-base-300 border-4"/>
+            <img src={cp3} alt="cp1" className="md:w-1/2 w-9/10 mx-auto rounded-2xl border-base-300 border-4"/>
             <div className="absolute -bottom-7 right-5 cursor-pointer" onClick={() => setShow("question")}>
                 <RotateCcw size={20}/>
             </div>
